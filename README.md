@@ -1,3 +1,13 @@
+# Prerequisites
+
+Install YAD to have an icon shown in your systray, for deb based distributions:
+
+```bash
+sudo apt install yad
+```
+
+# Configuration
+
 Adjust in bin/backup-config.sh the remote.
 Copy the content of *crontab-e* inside ```crontab -e``` editor.
 Copy *bin* content into bin folder under your home.
