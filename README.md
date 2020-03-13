@@ -17,6 +17,8 @@ sudo apt install yad
 
 # SSH for Rsync
 
+AKA make rsync work without a password prompt.
+
 ```bash
 ssh-keygen -t rsa
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
