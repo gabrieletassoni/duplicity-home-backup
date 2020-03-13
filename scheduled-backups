@@ -1,0 +1,2 @@
+32 12 * * 6 nice -n 10 $HOME/bin/backup-cleanup.sh;/root/bin/backup-full.sh
+32 12 * * 1,2,3,4,5 nice -n 10 $HOME/bin/backup-incremental.sh

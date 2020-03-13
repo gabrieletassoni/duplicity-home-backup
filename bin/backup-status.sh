@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ./backup-config.sh
+source $HOME/bin/backup-config.sh
 duplicity collection-status $REMOTE --no-encryption
 exit 0
