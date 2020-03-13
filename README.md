@@ -8,9 +8,12 @@ sudo apt install yad
 
 # Configuration
 
-Adjust in bin/backup-config.sh the remote.
-Copy the content of *crontab-e* inside ```crontab -e``` editor.
-Copy *bin* content into bin folder under your home.
+* Adjust in bin/backup-config.sh the following variables:
+  * RSYNCUSER
+  * RSYNCADDR
+  * RSYNCDIR
+* Copy *bin* content into bin folder under your home.
+* Copy the content of *crontab-e* inside ```crontab -e``` editor to have the backup running each hour for increments and once a week for full backup, cleaning all that'a older than one month.
 
 # SSH for Rsync
 
