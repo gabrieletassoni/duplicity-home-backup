@@ -17,7 +17,9 @@ sudo apt install yad
 
 # SSH for Rsync
 
+```bash
 ssh-keygen -t rsa
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
-ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 rsync@192.168.121.105
-ssh -p '22' 'rsync@192.168.121.105'
+ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 rsync@<YOUR-NAS-IP-ADDRESS>
+ssh -p '22' 'rsync@<YOUR-NAS-IP-ADDRESS>'
+```
